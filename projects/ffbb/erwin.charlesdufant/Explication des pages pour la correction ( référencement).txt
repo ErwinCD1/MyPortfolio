@@ -1,0 +1,10 @@
+Bonjour,
+
+Tout les articles qui peuvent être mis dans le panier sont sur l' index.php.
+
+Pour le code javascript && jQuery
+
+> header.php se référence à index.php
+> monPanier.php se référence à headerPanier.php
+
+Merci, je reste a votre disposition pour toutes questions.

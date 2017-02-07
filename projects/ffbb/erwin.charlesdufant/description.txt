@@ -1,0 +1,11 @@
+voila quand je lance mon site web avec l'inspecteur d'élément,
+il me retourne une erreur dans le fichier header.php à la ligne 42
+	→ sur cette ligne  "   $("#AjouterTShirtRoseFfbbPanier").src(),  "
+
+	car dans mon panier je souhaiterai retourner unId, unNom, uneImg, unPrix et uneQuantite
+
+Je voudrai savoir si mon contructeur est bien créé et auusi de savoir si mes articles sont correctement écrit. tout ces articles ce référence dans index.php.
+
+
+Vu que j'ai des fichiers en php, le javascript pour le panier se référence dans headerPanier.php
+sinon tout le reste est dans header.php.
