@@ -1,0 +1,26 @@
+[
+  {
+    "idType": "1",
+    "libelleType": "Restaurants"
+  },
+  {
+    "idType": "2",
+    "libelleType": "Administrations"
+  },
+  {
+    "idType": "3",
+    "libelleType": "Loisirs"
+  },
+  {
+    "idType": "4",
+    "libelleType": "Sorties"
+  },
+  {
+    "idType": "5",
+    "libelleType": "Shopping"
+  },
+  {
+    "idType": "6",
+    "libelleType": "Transport"
+  }
+]

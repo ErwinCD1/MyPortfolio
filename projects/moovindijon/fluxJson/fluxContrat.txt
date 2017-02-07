@@ -1,0 +1,26 @@
+[
+  {
+    "idContract": "1",
+    "libelleContract": "Simply",
+    "deviceContract": "Logo sur une page partenaire en ouvrant l'application",
+    "profitContract": "Repréntation de la marque et visibilité de  la marque",
+    "TimeContract": "9",
+    "priceContract": "100"
+  },
+  {
+    "idContract": "2",
+    "libelleContract": "VIP",
+    "deviceContract": "Page entièrement dédié à votre publicité",
+    "profitContract": "Total visibilité de la marque, représentation plus concrète et cibles plus concernée",
+    "TimeContract": "3",
+    "priceContract": "150"
+  },
+  {
+    "idContract": "3",
+    "libelleContract": "Pass ouverture",
+    "deviceContract": "Réduction de 30% sur l'offre simply",
+    "profitContract": "Représentation de la marque et visibilité de la marque",
+    "TimeContract": "9",
+    "priceContract": "70"
+  }
+]

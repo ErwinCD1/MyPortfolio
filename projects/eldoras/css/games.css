@@ -1,0 +1,160 @@
+#globut{
+	margin-left: 190px;
+}
+
+input{
+width:40px;
+height:40px;
+background-color:white;
+border-radius:2px 50%;
+color: blue;
+margin-left: 7px;
+}
+
+/*Boite avec la lettre dedans*/
+
+.lettre{
+height:30px;
+background-color:#287dbb;
+margin-right:15px;
+margin-top:20px;
+border-radius:5px 5px 0px 0px;
+border:solid 2px #FFFFFF;
+color : #FFFFFF;
+font-size: 20px ;
+text-align: center;
+padding-top: 10px;
+}
+
+/*Les boite avec l'image du jeu*/
+
+.arma{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_arma3.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.bf{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_bf4.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.callof{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_callof.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.diablo{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_diablo.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.forza{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_forza.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.halo{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_halo.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.infamous{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_infamous.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.pokemon{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_pokemonx.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.skyrim{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_skyrim.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+.titanfall{
+height:310px;
+margin-right:15px;
+background-color:#FFFFFF;
+background-image:url(../images/fond_titanfall.jpg);
+background-repeat:no-repeat;
+background-position:left;
+border-radius:0px 0px 5px 5px;
+border:solid 3px #FFFFFF;
+}
+
+/*image des jeux*/
+
+.imgjeux{
+float:right;
+margin-right:10px;
+margin-top:5px;
+
+}
+
+/* logo du support du jeu (xbox ou ps3 ou ..) */
+
+.support{
+margin-left:5px;
+margin-top:5px;
+float:left;
+}
+
+
+
+

@@ -1,0 +1,92 @@
+[
+  {
+    "idClient": "1",
+    "nameClient": "Patate",
+    "firstNameClient": "Caramel",
+    "phoneClient": "0188675454",
+    "emailClient": "caramel.patate@hotmail.fr",
+    "addressClient": "37 Avenue Edwuardo",
+    "idContract": "1"
+  },
+  {
+    "idClient": "2",
+    "nameClient": "Eponge",
+    "firstNameClient": "Bob",
+    "phoneClient": "0223456789",
+    "emailClient": "bob.eponge@hotmail.fr",
+    "addressClient": "87 Rue Bikini Botom",
+    "idContract": "1"
+  },
+  {
+    "idClient": "3",
+    "nameClient": "Etoile",
+    "firstNameClient": "Patrick",
+    "phoneClient": "0387542565",
+    "emailClient": "patrick.etoile@hotmail.fr",
+    "addressClient": "89 Rue Bikini Botom",
+    "idContract": "2"
+  },
+  {
+    "idClient": "4",
+    "nameClient": "Escobar",
+    "firstNameClient": "Pablo",
+    "phoneClient": "0474545221",
+    "emailClient": "pablo.escobar@hotmail.fr",
+    "addressClient": "12 Rue du Duc",
+    "idContract": "3"
+  },
+  {
+    "idClient": "5",
+    "nameClient": "Gets",
+    "firstNameClient": "Arthur",
+    "phoneClient": "0588215465",
+    "emailClient": "arthur.gets@hotmail.fr",
+    "addressClient": "12 Rue des Palmiers",
+    "idContract": "3"
+  },
+  {
+    "idClient": "6",
+    "nameClient": "Tchenkov",
+    "firstNameClient": "Nikolas",
+    "phoneClient": "0698653241",
+    "emailClient": "nikolas.tchenkov@hotmail.fr",
+    "addressClient": "15 Rue des Palmiers",
+    "idContract": "1"
+  },
+  {
+    "idClient": "7",
+    "nameClient": "Min",
+    "firstNameClient": "Max",
+    "phoneClient": "0712457898",
+    "emailClient": "max.min@hotmail.fr",
+    "addressClient": "19 Rue des Palmiers",
+    "idContract": "2"
+  },
+  {
+    "idClient": "8",
+    "nameClient": "Rty",
+    "firstNameClient": "Aze",
+    "phoneClient": "0865483251",
+    "emailClient": "aze.rty@hotmail.fr",
+    "addressClient": "42 Rue des Palmiers",
+    "idContract": "3"
+  },
+  {
+    "idClient": "9",
+    "nameClient": "Gaviria",
+    "firstNameClient": "Gustavo",
+    "phoneClient": "0984753212",
+    "emailClient": "gustavo.gaviria@hotmail.fr",
+    "addressClient": "95 Rue des Palmiers",
+    "idContract": "2"
+  },
+  {
+    "idClient": "10",
+    "nameClient": "Edit",
+    "firstNameClient": "Mitchel",
+    "phoneClient": "0187542565",
+    "emailClient": "mitchel.edit@hotmail.fr",
+    "addressClient": "66 Rue des Palmiers",
+    "idContract": "3"
+  }
+]

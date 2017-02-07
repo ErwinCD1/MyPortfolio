@@ -1,0 +1,21 @@
+.main-header nav{
+	background-color: #FF177A !important;
+}
+
+.logoImg{
+	margin: 7px;
+}
+
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-left: 0;
+}
+.sidebar-menu {
+    margin-top: 38px;
+}
+.main-sidebar, .left-side {
+    padding-top: 15px;
+}
+.iconI
+{
+	font-size: 50px;
+}

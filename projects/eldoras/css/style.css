@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+
+    font-size: 12px;
+    line-height: 18px;
+    font-family: arial, sans-serif;
+    color: #a8a8a8;
+    background: url('../images/background.jpg') center top  no-repeat ;
+    background-color: black ;
+    min-width: 1000px;
+}
+
+a { color: #349ce6; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+
+.mise-en-page { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+
+.structure { padding: 9px 0 30px; width: 995px; margin: 0 auto; }
+
+#header { position: relative; padding: 40px 0 0px; }
+
+#banniere { display: inline; margin-left:60px; float: left; width: 906px;display: block; height: 350px; background: url('../images/banniere.jpg') no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4000px; }
+
+#menu { margin: 0 0 0 7px; padding: 0px 0 0 3px; width: 983px; height: 73px; background: url('../images/menu.png') no-repeat 0 0; }
+#menu ul li { list-style: none; display: inline; float: left;	line-height: 60px; text-shadow: 1px 1px #1b3242; background: url('../images/nav-sep.png') no-repeat right 0; }
+#menu ul li { font-family: 'Play', sans-serif; font-size: 14px; text-transform: uppercase; font-weight: bold; }
+#menu ul li.menu a { padding: 0 23px 0 26px; background: url('../images/nav-menu.png') no-repeat 0 -4000px; }
+#menu ul li a { display: inline; float: left; padding: 0 22px 0 19px; color: #fff; background: url('../images/nav-text.png') repeat-x 0 -4000px; }
+#menu ul li a:hover { background-position: 0 0; text-decoration: none; }
+
+#main { padding-left: 4px; }
+#main-top { font-size: 0; line-height: 0; text-indent: -4000px; height: 10px; background: url('../images/contenu-top.png') no-repeat 0 0; }
+#main-middle { padding: 10px 27px 0; width: 937px; background: url('../images/contenu-middle.png') repeat-y 0 0; }
+#main-bottom { font-size: 0; line-height: 0; text-indent: -4000px; height: 11px; background: url('../images/contenu-bottom.png') no-repeat 0 0; }
+
+h2 { margin-bottom: 7px; font-family: 'Play', sans-serif; font-size: 26px; line-height: 47px; color: #fff; font-weight: normal; border-bottom: solid 1px #373737; }
+
+#content { display: inline; float: left; width: 900px; }
+.article { padding-bottom: 56px; }
+.article p { padding: 9px 0 10px; text-align: justify; text-indent: 15px; }
+
+#footer { padding-top: 5px;}
+
+#titre { padding-top: 45px; font-family:'Play'; font-size : 70px; color: #fff ; }
+
+#intro { /* images introduction index */
+	width :400px;
+	height:300px;
+	border:2px solid white ;
+	border-radius: 2px;
+	margin-left: 250px;}
+
+#portrait { /* portrait de la page l'equipe */
+    width :auto;
+    height:auto;
+    margin-left: 200px;
+}
+

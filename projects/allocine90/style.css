@@ -1,0 +1,241 @@
+
+/***********************************************************************
+                              CSS siteweb.html
+************************************************************************/
+
+
+#body{
+width:976px;
+height:auto;
+background-color:#000000;
+position:center;
+margin:auto;
+margin-top:200px;
+z-index:2;
+
+}
+
+body {
+background-color:#000000;
+background-image:url(image/fond6.jpg);
+background-position: center top;
+background-repeat:no-repeat;
+}
+
+/*Menu*/
+
+ul#tabnav {
+    font: bold 16px Comic Sans MS cursive;
+    list-style-type: none;
+    padding-bottom: 34px;
+    border-bottom: 5px solid #000000;
+    margin-top: -4px;
+    width:926px;
+    background-color: #FFD24A;
+}
+ul#tabnav li {
+    float: left;
+    height: 25px;
+    background-color: #FFD24A;
+    margin: 4px 2px 0 10px;
+    border: 5px solid #000000;
+}
+ul#tabnav li.selected {
+    border-bottom: 5px solid #FFFFFF;
+    background-color:#6E6D6D;
+}
+ul#tabnav li.active a {
+    color: #000000;
+}
+#tabnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 4px;
+}
+#tabnav a:hover {		/*Fond actif*/
+    background: #6E6D6D;
+}
+
+/*Corps*/
+	
+.container{
+    height:1000px;
+    background-color:#C0C0C0;
+    margin-left:0px;
+    margin-top:-12px;
+    border:solid 1px;
+}
+
+/* Bandes annonces */
+
+.Bandes-annonces{
+    height:350px;
+    background-color:#FFFFFF;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:40px;
+
+    border-radius:5px 5px 5px 5px;
+    border:solid 1px;
+}
+
+.titlebar{
+    color: #CC0000;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top:15px;
+    margin-left:15px;
+}
+
+.sous-titres {
+    font-size:12px;
+}
+
+#ul_liste li { 				/* liste */
+	list-style-type:none; 
+	list-style-position:inside;
+	display:inline-block;
+	width:180px;
+	padding:18px;
+	text-align:center;
+	vertical-align:top;
+	margin-top:-10px;
+}
+
+
+#ul_liste li span { 			/* texte */
+	width:180px;
+	font-size:0.9em;
+	color:black;
+	
+}
+
+/*Cinéma*/
+
+.cinema{
+    height:30px;
+    background-color:#D8D8D8;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+
+    border-radius:5px 5px 0px 0px;
+    border:solid 1px;
+}
+
+.cinema1{
+    height:500px;
+    background-color:#FFFFFF;
+    margin-left:-1px;
+    margin-right:-1px;
+    margin-top:0px;
+
+    border-radius:0px 0px 5px 5px;
+    border:solid 1px;
+}
+
+.titlebar2{		
+    color: #6E6D6D;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top:3px;
+    margin-left:20px;
+}
+
+/*Film attendus*/
+
+.titlebar1{
+    color: #CC0000;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top:15px;
+    margin-left:15px;
+}
+
+#ul_liste1 li { 				/* liste */
+	list-style-type:none; 
+	list-style-position:inside;
+	display:block;
+	width:210px;
+	padding:10px;
+	text-align:top;
+	vertical-align:top;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+
+#ul_liste1 li span { 			/* texte */
+	width:180px;
+	font-size:0.9em;
+	color:black;
+	
+}
+
+/*Vos cinémas*/
+
+.titlebar3{
+    color: #CC0000;
+    font-size: 18px;
+    font-weight: normal;
+    text-align:right;
+    float:right;
+    margin-top:-450px;
+    margin-right:200px;
+}
+
+#ul_liste2 li { 				/* liste */
+	list-style-type:none; 
+	list-style-position:inside;
+	display:block;
+	width:210px;
+	padding:10px;
+	text-align:left;
+	vertical-align:top;
+	float:right;
+	margin-top:-440px;
+	margin-right:100px;
+}
+
+
+#ul_liste2 li span { 			/* texte */
+	width:180px;
+	font-size:0.9em;
+	color:black;
+	
+}
+
+/***********************************************************************
+                              formulaire.php
+************************************************************************/
+
+.form1{
+    background-color: #FFFFFF;
+}
+
+.f2{
+    display: block;
+    
+    float: left;
+}
+
+.f2 label{
+    display: inline-block;
+    width: 125px; 
+}
+
+.f2 input{
+    display: inline;
+    width: 150px;
+}
+
+/***********************************************************************
+                              table1.php
+************************************************************************/
+
+.fonttable{
+    background-color: white;
+    }
+

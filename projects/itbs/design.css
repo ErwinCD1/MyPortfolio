@@ -1,0 +1,317 @@
+body 
+{
+    background-color: #E9A557;
+    background-image: url("image/background.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    bottom: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin:0px;
+    padding:0px;
+}
+
+div
+{
+    display:block;
+}
+
+#header 
+{
+width: 950px;
+height: 201px;
+background: url(image/banniere.jpg) no-repeat;
+}
+
+#contenu
+{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 950px;
+}
+
+#nav
+{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: 0;
+    float:right;
+    background-color: #d6b37b;
+}
+
+#douze
+{
+    font-size: 13px;
+}
+
+#article
+{
+    width: 740px;
+    height: 350px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_economie
+{
+    width: 740px;
+    height: 650px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_presentation
+{
+    width: 740px;
+    height: 350px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_influence
+{
+    width: 740px;
+    height: 1000px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_histoire
+{
+    width: 740px;
+    height: 500px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_partenaires
+{
+    width: 740px;
+    height: 700px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_personel
+{
+    width: 740px;
+    height: 370px;
+    float:right;
+    margin-right:auto;
+}
+
+#article_activite
+{
+    width: 740px;
+    height: 1400px;
+    float:right;
+    margin-right:auto;
+}
+
+a.menu
+{
+    margin: 0px 10px 0px 10px;
+    color:black;
+}
+
+a.menu_nav
+{
+color: black;
+overflow:white;
+}
+
+a:hover
+{
+	color:white;
+}
+
+footer
+{
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mise_page_h2
+{
+    margin-left: 50px;
+}
+
+#justifier
+{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+#center
+{
+    text-align: center;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#juridique
+{
+    display:block;
+    border:solid 1px black;
+    margin-right: 20px;
+}
+
+#activite
+{
+    width:60%;
+    display:block;
+    border:solid 1px black;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.arrow-up
+{
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+/*********** Menu déroulant **************/
+
+#menu
+{
+    width: 500px;
+    height: 22px;
+    margin: 0;
+    position-top:20px;
+    margin: 20px auto 20px auto;
+    list-style: none;
+    background-color:#AF522F;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px #9c9c9c;
+    text-align: center;
+}
+
+#menu li
+{
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu a
+{
+    float: left;
+    height: 18px;
+    padding: 0 25px;
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#menu li:hover > ul
+{
+    display: block;
+}
+
+/* Sous-menu */
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background-color:#AF522F;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-shadow: 0 1px 0 #E9A557, 0 2px 0 #AF522F;
+}
+
+#menu ul li:last-child{
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    height: auto;
+    width: 120px;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover{
+    background: #0186ba;
+    background: -moz-linear-gradient(#04acec,  #0186ba);
+    background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+    background: -webkit-linear-gradient(#04acec,  #0186ba);
+    background: -o-linear-gradient(#04acec,  #0186ba);
+    background: -ms-linear-gradient(#04acec,  #0186ba);
+    background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child a{
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 66px solid transparent;
+    border-right: 66px solid transparent;
+    border-bottom: 8px solid #AF522F;
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+#menu ul li:last-child a{
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#panel,#flip
+{
+    padding:5px;
+    text-align:center;
+    background-color:#d6b37b;
+    border:solid 1px #c3c3c3;
+    width:600px;
+}
+
+#panel
+{
+    padding:50px;
+    display:none;
+    width:510px;
+}
